@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilando formularios en CSS</title>
+    <link rel="stylesheet" href="formularios.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>dribbble</h3>
+        <h2>Sign up to Dribbble</h2>
+        <div class="buttons">
+            <button class="btn-google">
+                <picture><img src="https://entredichos.trabajosocial.unlp.edu.ar/wp-content/uploads/sites/6/2016/12/Google_-G-_Logo.svg_.png" alt="logo-google" ></picture>
+                <span>Acceder con Google</span>
+            </button>
+            <button class="btn-twitter">
+                <picture><img src="http://politiks360.com/wp-content/uploads/2018/12/twitter-logo.png" alt="logo-twitter" ></picture>
+            </button>
+        </div>
+        <div class="separator">
+            <hr>
+            <p>Or</p>
+            <hr>
+        </div>
+        <div>
+            <form class="form" action="" method="post">
+                <div>
+                    <label for="name" name="name">
+                        <span> <b>Name</b></span>
+                        <input id="name" type="text">
+                    </label>
+                    <label for="username" name="name">
+                        <span> <b>Username</b></span>
+                        <input id="username" type="text">
+                    </label>
+                </div>
+
+                <label for="email" name="name">
+                    <span> <b>Email</b></span>
+                    <input id="email" type="text">
+                </label>
+                <label for="password" name="password">
+                    <span> <b>Password</b></span>
+                    <input id="password" type="text" placeholder="6+ characters">
+                </label>
+                <label for="checkbox" name="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <p>Creating an account means you’re okay with our Terms of Service,
+                        Privacy Policy, and our default Notification Settings. </p>
+                </label>
+                <button type="submit">Create Account</button>
+                <p>This site is protected by reCAPTCHA and the Google Privacy
+                    Policy and Terms of Service apply. </p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
