@@ -4,14 +4,20 @@
     font-family:'Ubuntu', sans-serif; ;
 }
 
+.body {
+    background-color: #161717;
+    color: #ffffff;
+}
+
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    max-width: 416px;
     justify-content: center;
-    margin: 2%;
+    margin: auto;
     gap: 1px;
 }
+
 .container h2, h3 {
     margin: 2% 2%;
 }
@@ -22,8 +28,7 @@
 
 .buttons {
     display: flex;
-    width: 100%;
-    margin: 0 1 10 1;
+    margin: 25px 0 30px ;
 }
 
 .buttons button {
@@ -88,7 +93,6 @@
     flex-direction:row; 
     align-items: center;
     justify-content: center;
-    width: 100%;
     gap: 15px;
 }
 
@@ -108,19 +112,46 @@
     gap: 50px;
 }
 
+.names {
+    display: flex;
+    gap: 5px;
+    width: 40%;
+}
+
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 12px 0;
+    line-height: 1;
+}
+
+.form label span {
+    margin: 14px 0 4px;
+    border: 0;
+    padding: 0;
+}
+
 .form label input {
     background-color: #f3f3f4;
     border:  1px solid transparent;
     border-radius: 8px;
     font-weight: 400;
+    height: 40px;
     box-sizing: border-box;
     padding: 10px 16px;
     outline: none;
 }
 
 .form label input:hover {
-    border: 1px solid #e1e1e1;
+    border: 1px solid #e1e1e1;  
     transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, box-shadow 200ms ease, -webkit-box-shadow 200ms ease;
+    box-shadow: 0 0 0 4px rgba(234,76,137,0.1);
+}
+.form label input:focus {
+    border: 1px solid #e1e1e1; 
+    background-color: white;
     box-shadow: 0 0 0 4px rgba(234,76,137,0.1);
 }
 
@@ -144,4 +175,13 @@
     transition: color 200ms ease;
     cursor: pointer;
     text-decoration: none;
+}
+.checkbox {
+    display: block;
+    flex-direction: row !important;
+}
+.check {
+    width: 25px;
+    margin-right: 5%;
+    color: #6e6d7a;
 }
