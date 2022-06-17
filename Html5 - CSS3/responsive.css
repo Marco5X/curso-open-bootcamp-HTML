@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    font-size: 2rem;
+}
+
+.section {
+    color: #f0f8ff;
+    background-color: #6495ed;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;    
+}
+
+.main {
+    padding: 2rem;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    body {
+        flex-direction:column-reverse;
+    }
+    .section {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
