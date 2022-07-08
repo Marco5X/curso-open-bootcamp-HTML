@@ -1,0 +1,17 @@
+{
+  "name": "intro_a_javascript",
+  "version": "1.0.0",
+  "description": "Ejercicio nro 1 del curso de javascript",
+  "main": "Ejercicio1.js",
+  "scripts": {
+    "start": "node Ejercicio1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript",
+    "open",
+    "bootcamp"
+  ],
+  "author": "Marcos Manuel Cruz",
+  "license": "ISC"
+}
