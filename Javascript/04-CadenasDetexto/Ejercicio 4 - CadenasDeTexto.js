@@ -40,7 +40,3 @@ let lastLetter = lastName.substring(lastName.length , lastName.length - 1)
 let deleteSpace = student.replace( / /g, "")
  
 let confirm = student.includes(name1)
-
-
-
-
