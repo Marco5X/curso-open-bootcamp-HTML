@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        // Anula nuestra configuración predeterminada solo para este directorio
+        "eqeqeq": "warn",
+        "strict": "off",
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+         // override configuration set by extending "eslint:recommended"
+         "no-empty": "warn",
+         "no-cond-assign": ["error", "always"],
+ 
+         // disable rules from base configurations
+          "for-direction": "off"
+    }
+}
